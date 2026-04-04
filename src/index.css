@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  @apply h-full;
+}
+
+@theme {
+  --color-blue950: #10141e;
+  --color-blue900: #161d2f;
+  --color-blue500: #5a698f;
+  --color-red500: #fc4747;
+
+  --font-display: "Outfit", sans-serif;
+}
+
+@utility text-preset-1 {
+  @apply font-light text-[32px] leading-[125%] -tracking-[0.5px];
+}
+
+@utility text-preset-2 {
+  @apply font-medium text-[24px] leading-[125%] tracking-normal;
+}
+
+@utility text-preset-2-light {
+  @apply font-light text-[24px] leading-[125%] tracking-normal;
+}
+
+@utility text-preset-3 {
+  @apply font-medium text-[18px] leading-[125%] tracking-normal;
+}
+
+@utility text-preset-4 {
+  @apply font-light text-[15px] leading-[125%] tracking-normal;
+}
+
+@utility text-preset-4 {
+  @apply font-light text-[13px] leading-[125%] tracking-normal;
+}
+
+@utility text-preset-1-mobile {
+  @apply font-light text-[20px] leading-[125%] -tracking-[0.3px];
+}
+
+@utility text-preset-2-mobile {
+  @apply font-light text-[16px] leading-[125%] tracking-normal;
+}
+
+@utility text-preset-3-mobile {
+  @apply font-medium text-[15px] leading-[125%] tracking-normal;
+}
+
+@utility text-preset-4-mobile {
+  @apply font-medium text-[14px] leading-[125%] tracking-normal;
+}
+
+@utility text-preset-5-mobile {
+  @apply font-light text-[12px] leading-[125%] tracking-normal;
+}
+
+@utility text-preset-6-mobile {
+  @apply font-light text-[11px] leading-[125%] tracking-normal;
+}
